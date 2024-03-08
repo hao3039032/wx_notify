@@ -1,0 +1,11 @@
+notify:
+  name: WXNotify
+  description: Notify message via wx
+  fields:
+    message:
+      name: Message
+      description: Message to send
+      required: true
+      example: "Washing machine is finish."
+      selector:
+        text:
